@@ -1,0 +1,538 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+
+
+section {
+    padding: 20px 9%;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 50px;
+    background: #333;
+    color: #fff;
+    padding: 9px 35px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.btn:hover {
+    background: #0A84FF;
+}
+
+.heading {
+    text-align: center;
+    font-size: 40px;
+    color: #333;
+    padding: 10px;
+    margin: 20px 0;
+    background: white;
+}
+
+.heading span {
+    color: #0A84FF;
+}
+
+/* ===== Header Styles ===== */
+header {
+    margin-top: 0px;
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background: #fff;
+    padding: 20px 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 5px 10px rgb(0, 0, 0, .1);
+}
+
+header .logo {
+    font-size:30px;
+    color: #333;
+    font-weight: bolder;
+}
+
+header .navbar a {
+    font-size: 20px;
+    padding: 0 15px;
+    color: #666;
+}
+
+header .navbar a:hover {
+    color: #0A84FF;
+}
+
+header .Search {
+    size: 40;
+    padding: 8px 15px;
+}
+
+header .icons label {
+    font-size: 30px;
+    color: #333;
+    margin-left: 15px;
+}
+
+header .icons a:hover {
+    color: #0A84FF;
+}
+
+/* ===== Home Section ===== */
+.home {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #000000, #434343);
+    background-size: cover;
+    justify-content: space-between;
+    
+}
+
+.home .content {
+    max-width: 600px;
+}
+
+.home .content h3 {
+    font-size: 40px;
+    color: White;
+}
+
+.home .content span {
+    font-size: 25px;
+    color:blue;
+    padding: 10px 0;
+    line-height: 1.5;
+}
+
+.home .content p {
+    font-size: 20px;
+    color:#999;
+    padding: 10px 0;
+    line-height: 1.5;
+}
+
+.home .img01 img{
+   
+    width: 600px;
+    height: 500px;
+ 
+}
+/* ===== About Section ===== */
+
+.about {
+    padding: 60px 9%;
+    background: transparent;
+}
+
+.about .heading {
+    font-size: 45px;
+    margin-bottom: 40px;
+    background: transparent; /* Added here for specificity */
+}
+
+
+.about .row {
+    display: flex;
+    align-items: center;
+    gap: 40px;  /* Increased gap */
+    flex-wrap: wrap;
+}
+
+.about .image-container {
+    flex: 1 1 500px;  /* Increased size */
+    position: relative;
+}
+
+.about .image-container img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    border: 10px solid #fff;
+}
+
+.about .content {
+    flex: 1 1 500px;  /* Increased size */
+    padding: 20px;
+}
+
+.about .content h3 {
+    font-size: 36px;  /* Larger heading */
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about .content p {
+    font-size: 16px;  /* Slightly larger text */
+    color: #666;
+    line-height: 1.8;  /* Better readability */
+    margin-bottom: 15px;
+}
+
+
+/* ===== Services Section (section3) ===== */
+.section3 {
+    width: 100%;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 40px 20px;
+    background: #dcdcdc;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.service {
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    color: #0A84FF;
+    margin-bottom: 20px;
+    padding-left: 30px;
+}
+
+.section3 h2 {
+    font-size: 30px;
+    color: #333;
+    margin: 20px 0 40px;
+    padding-left: 30px;
+}
+
+.box {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+.box1 {
+    flex: 1 1 300px;
+    min-width: 300px;
+    max-width: 350px;
+    height: 320px; /* Fixed height in pixels */
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.box1:hover {
+    transform: translateY(-10px);
+}
+
+
+.icon img{
+
+    margin-bottom: 10px;
+}
+
+.box1 h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+    padding: 0;
+}
+
+.box1 div {
+    font-size: 16px;
+    color: #666;
+    line-height: 24px;
+    margin: 10px 0;
+}
+/* ===== Resume Section ===== */
+.resume {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0; /* Added padding */
+}
+
+
+.container01 {
+    width: 100%;
+    padding: 35px 10%;
+}
+
+
+.row01 {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap; /* Added for responsiveness */
+}
+.col01 {
+    flex: 1 1 50%; /* Makes columns equal width */
+    min-width: 400px; /* Minimum width before stacking */
+}
+
+
+.col01 header.title01 {
+    color: black;
+    padding: 0px 0px 20px 30px;
+}
+
+.col01 .contents01 {
+    padding: 0px 30px;
+    border-left: 2px solid #bababa;
+}
+
+.col01 .contents01 .box01 {
+    position: relative;
+    padding: 20px;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+ 
+}
+.col01 .contents01 .box01 {
+    
+    margin-bottom: 10px;
+}
+
+.col01 .contents01 .box01:hover {
+    box-shadow: 0px 3px 12px 0px #ccc;
+    border: 1px solid transparent;
+}
+
+.box01 h4 {
+    position: relative;
+    color: black;
+}
+
+.box01 h3 {
+    font-size: 19px;
+    padding: 10px 0px 6px;
+    font-family: helvetica;
+    color: #444;
+}
+
+.box01 p {
+    line-height: 1.2;
+    color: #666;
+    font-size: 17px;
+}
+
+/* ===== Contact Section ===== */
+.contact form {
+    width: 90%;
+    background-color: #f0f0f0;
+    margin: 17vh auto 0 auto;
+    padding: 40px;
+    border-radius: 8px;
+}
+
+.contact h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact label {
+    display: block;
+    margin: 15px 0;
+}
+
+.contact input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.contact input[type="submit"] {
+    width: 150px;
+    background-color: #333;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    margin: 20px auto 0;
+    
+}
+
+.contact input[type="submit"]:hover {
+    background-color: #0066cc;
+}
+
+
+/* Footer Container */
+.footerbg {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to right, #000000, #434343);
+margin-top: 0px;
+    color: white;
+    height: 50vh;
+}
+
+/* Left Section */
+.text {
+    margin-top: 40px;
+    margin-left: 50px;
+    color: white;
+}
+
+.h1 {
+    margin-top: 40px;
+    font-size: 50px;
+    color: antiquewhite;
+}
+
+/* Email */
+.h2 {
+    display: block;
+    text-decoration: none;
+    margin-top: 50px;
+    color: white;
+    font-size: 18px;
+}
+
+/* Underline */
+.line {
+   
+    width: 235px;
+    height: 3px;
+    background: white;
+}
+
+/* Address */
+.para {
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 75px;
+}
+
+/* Get in Touch Button */
+.touch {
+    border: 2px solid gray;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+  margin-top: 0px;
+    border-radius: 20px;
+    
+}
+.touch:hover{
+    color: black;
+    background-color: white;
+}
+
+/* Right Section */
+.next {
+    display: flex;
+    justify-content: space-between;
+    margin: 35px 70px;
+}
+
+/* Navigation */
+.nav1 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 70px;
+    margin-top: 50px;
+    
+}
+
+.nav1 a {
+    text-decoration: none;
+    color: gray;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.join{
+    display: inline-block;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+
+.join1 a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: gray;
+}
+.join2{
+    margin-top: 20px;
+font-size: 16px;
+
+}
+.join2 a{
+    text-decoration: none;
+    color: gray;
+}
+.button{
+    bottom: 0px;
+    width: 100px;
+    height: 30px;
+    border-radius: 25px;
+    margin-top: 55px;
+}
+a:hover{
+    color: white;
+    text-decoration: double;
+}
+/* GAllay here */
+.container011 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0px 20px;
+}
+
+.container011 .heading {
+    width: 50%;
+    padding-bottom: 50px;
+}
+
+.container011 .heading h3 {
+    font-size: 48px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    border-bottom: 3px solid black;
+}
+
+.container011 .box011 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container011 .box011 .dream {
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+
+.container011 .box011 .dream img {
+    width: 100%;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+
+.container011 .botton011 {
+    margin: 40px 0 70px 0;
+    background: #333;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
+.container011 .botton011 a {
+    color: white;
+    font-size: 19.2px;
+    text-decoration: none;
+    font-weight: bolder;
+}
