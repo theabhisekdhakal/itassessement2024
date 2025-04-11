@@ -135,19 +135,19 @@ header .icons a:hover {
 .about .heading {
     font-size: 45px;
     margin-bottom: 40px;
-    background: transparent; /* Added here for specificity */
+    background: transparent; 
 }
 
 
 .about .row {
     display: flex;
     align-items: center;
-    gap: 40px;  /* Increased gap */
+    gap: 40px;  
     flex-wrap: wrap;
 }
 
 .about .image-container {
-    flex: 1 1 500px;  /* Increased size */
+    flex: 1 1 500px;  
     position: relative;
 }
 
@@ -159,20 +159,20 @@ header .icons a:hover {
 }
 
 .about .content {
-    flex: 1 1 500px;  /* Increased size */
+    flex: 1 1 500px;  
     padding: 20px;
 }
 
 .about .content h3 {
-    font-size: 36px;  /* Larger heading */
+    font-size: 36px;  
     color: #333;
     margin-bottom: 20px;
 }
 
 .about .content p {
-    font-size: 16px;  /* Slightly larger text */
+    font-size: 16px; 
     color: #666;
-    line-height: 1.8;  /* Better readability */
+    line-height: 1.8;  
     margin-bottom: 15px;
 }
 
@@ -215,7 +215,7 @@ header .icons a:hover {
     flex: 1 1 300px;
     min-width: 300px;
     max-width: 350px;
-    height: 320px; /* Fixed height in pixels */
+    height: 320px; 
     padding: 30px;
     background: white;
     border-radius: 10px;
