@@ -67,20 +67,21 @@
         <div class="box1">
             <div class="icon"> <img src="iconqualification/icon-1.png" alt=""></div>
             <h1>Graphics Designer</h1>
-            <div>User Experience And Interface Design</div>
-            <div>The full monty eatem me of muker <br> show off show</div>
+            <div>Photoshop,Figma and Design</div>
+            <div>Can help you create your tumbnail and all 
+                 the things that photoshop can do <br> See you soon</div>
         </div>
         <div class="box1">
             <div class="icon"><img src="iconqualification/icon-3.png" alt=""></div>
             <h1>Video Editor</h1>
-            <div>User Experience And Interface Design</div>
-            <div>The full monty eatem me of muker <br> show off show</div>
+            <div>Darvinci Resolve and Primier pro</div>
+            <div>Less money with high quality editing is where you are currently <br> show off show</div>
         </div>
         <div class="box1">
             <div class="icon"><img src="iconqualification/icon-2.png" alt=""></div>
             <h1>Coder</h1>
-            <div>User Experience And Interface Design</div>
-            <div>The full monty eatem me of muker <br> show off show</div>
+            <div>Html Css and javascript</div>
+            <div>Along with software development fromm c++ and <br> Python</div>
         </div>
     </div>
 </div>
@@ -179,6 +180,20 @@
         </div>
     </div>
 </footer>
+<script>
+    document.querySelector("form").addEventListener("submit", function(e) {
+        const name = document.getElementById("name").value.trim();
+        const email = document.getElementById("email").value.trim();
+        const message = document.getElementById("message").value.trim();
+
+        if (name === "" || email === "" || message === "") {
+            alert("Fill the valid ans");
+            e.preventDefault(); 
+        } else {
+            alert("I will call you shortly!");
+        }
+    });
+</script>
 
 </body>
 </html>

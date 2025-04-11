@@ -76,6 +76,19 @@
             
         </div>
     </footer>
+    <script>
+        document.querySelector("form").addEventListener("submit", function(e) {
+            const name = document.getElementById("name").value.trim();
+            const email = document.getElementById("email").value.trim();
+            const message = document.getElementById("message").value.trim();
     
+            if (name === "" || email === "" || message === "") {
+                alert("Fill the valid ans");
+                e.preventDefault(); 
+            } else {
+                alert("I will call you shortly!");
+            }
+        });
+    </script>
     </body>
     </html>
